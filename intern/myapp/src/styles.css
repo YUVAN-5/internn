@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Container for App */
+.app {
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4CAF50; /* Change background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+header .logo {
+  font-size: 2em; /* Increase font size */
+  font-weight: bold;
+  color: #fff; /* White color for text */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+header .logo:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+header nav {
+  display: flex;
+  gap: 20px; /* Increase gap between links */
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff; /* White color for text */
+  font-weight: bold;
+  padding: 10px 20px; /* Add padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+header nav a:hover {
+  background-color: #FFD700; /* Gold background color on hover */
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+main {
+  padding: 20px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Increase gap between elements */
+  max-width: 600px; /* Increase form width */
+  margin: 30px auto; /* Add margin for better spacing */
+  padding: 20px; /* Add padding for better spacing */
+  background-color: #fff; /* White background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+form:hover {
+  transform: translateY(-10px); /* Slight upward movement on hover */
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4CAF50; /* Green color for labels */
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus effects */
+}
+
+form input:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green shadow on focus */
+}
+
+form button {
+  padding: 15px 30px; /* Increase padding for better spacing */
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  font-size: 1.2em; /* Increase font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+form button:hover {
+  background-color: #388E3C; /* Darker green on hover */
+  transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+/* Example adjustments */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
